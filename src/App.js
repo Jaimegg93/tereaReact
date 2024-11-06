@@ -4,6 +4,8 @@ import EJ1 from './EJ1/EJ1_contador';
 import EJ2 from './EJ1/EJ2_Formulario';
 import EJ3 from './EJ1/EJ3_Esconder';
 import EJ4 from './EJ1/EJ4_Lista';
+import EJ5 from './EJ1/EJ5_buscar';
+
 
 /*
 
@@ -39,25 +41,24 @@ export default App;
 */
 
 function App() {
-
   return (
-    <div >
+    <div>
       <section>
         <EJ1/>
       </section>
-      
       <section>
         <h2> Saludo </h2>
         <EJ2/>
       </section>
-      
       <section>
         <h2>Ocultar</h2>
         <EJ3/>
       </section>
-
       <section>
         <EJ4/>
+      </section>
+      <section>
+        <EJ5/>
       </section>
     </div>
   );

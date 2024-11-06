@@ -8,7 +8,7 @@ function Esconder() {
         <button onClick={() => setVisible(!visible)}>
           {visible ? 'Ocultar' : 'Mostrar'} elemento
         </button>
-        {visible && <div>¡Aquí estoy!</div>}
+        {visible && <div>Eseeee</div>}
       </div>
     );
   }
