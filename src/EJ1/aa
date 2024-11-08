@@ -1,0 +1,35 @@
+/*
+  // TodoList Component
+  
+  function ProductSearch() {
+    const [keyword, setKeyword] = useState('');
+    const [products] = useState([
+      'Peugeot 3008',
+      'Mercedes EQS',
+      'Renault 4 E-Tech',
+      'Volkswagen Golf',
+      'Toyota RAV4',
+      'Peugeot 5008'
+    ]);
+
+    const filteredProducts = products.filter(product =>
+      product.toLowerCase().includes(keyword.toLowerCase())
+    );
+
+    return (
+      <div>
+        <input
+          type="text"
+          placeholder="Buscar producto"
+          value={keyword}
+          onChange={(e) => setKeyword(e.target.value)}
+        />
+        <ul>
+          {filteredProducts.map((product, index) => (
+            <li key={index}>{product}</li>
+          ))}
+        </ul>
+      </div>
+    );
+  }
+    */
